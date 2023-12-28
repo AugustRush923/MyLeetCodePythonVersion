@@ -62,8 +62,3 @@ def my_solution1(s: str) -> int:
             result += normal.get(r)
             s = s.replace(r, "", 1)   # 获取到后截断原字符串
     return result
-
-
-if __name__ == '__main__':
-    roman_int = my_solution1("XLI")
-    print(roman_int)
